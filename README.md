@@ -11,11 +11,11 @@ I'm learning Git and open source contribution through a structured 4-week progra
 - [x] Day 3: Created first repo
 - [x] Day 4: Push to GitHub
 - [x] Day 5: Learn branching
-- [ ] Day 6-7: Fork & Clone
+- [x] Day 6-7: Fork & Clone
 
 ### Week 2: First Contribution
-- [ ] Day 8: Contribution workflow
-- [ ] Day 9: First Pull Request
+- [x] Day 8: Contribution workflow
+- [x] Day 9: First Pull Request
 - [ ] Day 10: Find beginner issues
 - [ ] Day 11: Read contribution guides
 - [ ] Day 12: Documentation PR

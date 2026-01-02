@@ -37,6 +37,24 @@ git merge <branch>           # Merge branch into current
 git branch -d <name>         # Delete local branch
 ```
 
+### Day 6-7: Fork & Clone
+```bash
+git clone <url>                      # Download repository
+git remote add upstream <url>        # Connect to original repo
+git fetch upstream                   # Get upstream changes
+git merge upstream/main              # Sync with original
+```
+
+### Week 2: Contribution Workflow
+```bash
+# Full contribution flow
+git checkout -b feature-name         # Create feature branch
+git add .                            # Stage changes
+git commit -m "type: description"    # Commit with message
+git push origin feature-name         # Push to your fork
+# Then create PR on GitHub
+```
+
 ## Key Concepts
 - **Repository**: A folder tracked by Git
 - **Staging Area**: Where changes wait before commit
@@ -45,3 +63,7 @@ git branch -d <name>         # Delete local branch
 - **Remote**: A repository on GitHub (or other server)
 - **Push**: Upload commits to remote
 - **Merge**: Combine changes from one branch into another
+- **Fork**: Your copy of someone else's repo on GitHub
+- **Clone**: Download a repository to your computer
+- **Upstream**: The original repository you forked from
+- **Pull Request (PR)**: Request to merge your changes into original repo
